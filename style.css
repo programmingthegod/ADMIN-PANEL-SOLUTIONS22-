@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: Encode;
+    src: url(encode/EncodeSansSemiCondensed-Bold.ttf);
+}
+body{
+    font-family: Encode;    
+    background-color: #2b3648;
+    background-size: 1580px 100vh;
+    background-attachment: fixed;
+}
+nav {
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.5);
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; /* Height of navbar */
+    box-shadow: 10px 0px 5px rgb(0 0 0 0.5);
+    width: 240px;
+    z-index: 600;
+}
+.list :hover{
+    color: white;
+}
